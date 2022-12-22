@@ -58,7 +58,8 @@ def reading_emails_from_gmail():
                     # Regex expression to find words similar to or equivalent to congratulations!
                     regex = r"(?=("+'|'.join(word_to_check)+r"))"
 
-                    # If that expression is either found in the subject or in the body of the email regardless of its CASE ( uppercase or lowercase) then print the subject and update the number
+                    # If that expression is either found in the subject or in the body of the email regardless of its CASE ( uppercase or lowercase) then print the subject 
+                    # and update the number
                     if re.search(regex, str(body), re.IGNORECASE) or re.search(regex, str(email_subject), re.IGNORECASE):
                         print('Subject : ' + email_subject + '\n')
                         congratulation_email_found += 1
