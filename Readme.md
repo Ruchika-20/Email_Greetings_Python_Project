@@ -7,7 +7,7 @@ Partial Acceptable Solution: Get last five emails
 Complete solution: Get the last five emails containing words similar or equivalent to "congratulation."
 Note: You can remove your email and password before submitting and instruct us in the text file to let us put our own email/password to test your code.
 
-## Steps to run email_greet.py file :
+## Steps to run email_greet.py file :-
 
 1) Firstly , go to your gmail account security page and then turn on the 2-step verification option inside the signing in to the google section. 
 
