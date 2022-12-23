@@ -17,5 +17,5 @@ Note: You can remove your email and password before submitting and instruct us i
 
 4) Now enter your email into USERNAMe_EMAIL
 
-5) All set to go ! Now you can run the script using : python email.py
+5) All set to go ! Now you can run the script using : python email_greet.py
 
